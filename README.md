@@ -908,8 +908,6 @@ private Cookie createCookie(String key, String value) {
 
 [개발자 유미 | 커뮤니티](https://www.devyummi.com/page?id=669516f159f57d23e8a0b6af)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a0ff2a03-773c-4953-af24-b9d7906c8e17/515b14b1-19c8-463c-a1a7-57b1c7404d19/image.png)
-
 프론트의 API Client로 서버측에 요청을 보낸 후 데이터를 획득하는데, 이때 권한이 필요한 경우 Access 토큰을 요청 헤더에 첨부하는데 Access 토큰 검증은 서버측 JWTFilter에 의해 진행됨.
 
 이때 Access 토큰이 만료된 경우 특정한 상태 코드 및 메시지를 응답해야 함.
